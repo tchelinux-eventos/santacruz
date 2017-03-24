@@ -1,4 +1,5 @@
 Template do site para eventos do Tchelinux
+w
 ==========================================
 
 # Sobre este documento
@@ -85,16 +86,24 @@ Antes de começar a montar o site do evento, entrar em contato com Leonardo Vaz 
     echo "<cidade>.tchelinux.org" > CNAME 
 ~~~ 
 
- 4) Realizar as mudanças no arquivo `index.html` do repositório local, adicionando informações do evento.
+ 4) Alterar o arquivo `README`:
 
- 5) Alterar também as coordenadas no arquivo `javascript.js`, para que o mapa possa exibir a localização correta da instituição. As coordenadas podem ser obtidas a partir [deste site](http://www.whatsmygps.com/).
+~~~
+   echo "Site do Evento Tchelinux <ano> em <cidade>" > README
+ 
+~~~ 
+
+
+ 5) Realizar as mudanças no arquivo `index.html` do repositório local, adicionando informações do evento.
+
+ 6) Alterar também as coordenadas no arquivo `javascript.js`, para que o mapa possa exibir a localização correta da instituição. As coordenadas podem ser obtidas a partir [deste site](http://www.whatsmygps.com/).
 
 ~~~
 var latitude = -30.0351002;
 var longitude = -51.2265906;
 ~~~
 
- 6) Ao concluir, fazer commit com as mudanças usando o prefixo [2017] (para ajudar na identificação do ano do evento):
+ 7) Ao concluir, fazer commit com as mudanças usando o prefixo [2017] (para ajudar na identificação do ano do evento):
 
 ~~~
   $ git add .
@@ -102,10 +111,10 @@ var longitude = -51.2265906;
   $ git commit -m '[2017] Versão inicial do site para o evento do Tchelinux'
 ~~~
 
- 7) Após realizar todas mudanças (e comitá-las), fazer push para o repositório:
+ 8) Após realizar todas mudanças (e comitá-las), fazer push para o repositório:
 
 ~~~
   $ git push -u origin master
 ~~~
 
-As mudanças realizas já deverão incidir no site `<cidade>`.tchelinux.org após 15 minutos das modificações (acessar usando um web browser), todavia caso as mudanças não sejam devidamente propagadas, favor entrar em contato com o Leonardo Vaz.
+As mudanças realizas deverão incidir no site `<cidade>`.tchelinux.org em até 30 minutos após o push ter sido realizado. Utilize um web brow para verificar, e caso as mudanças não sejam devidamente propagadas favor entrar em contato com o Leonardo Vaz.
