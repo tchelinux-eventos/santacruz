@@ -115,4 +115,9 @@ var longitude = -51.2265906;
   $ git push -u origin master
 ~~~
 
-As mudanças realizas deverão incidir no site `<cidade>`.tchelinux.org em até 30 minutos após o push ter sido realizado. Utilize um web brow para verificar, e caso as mudanças não sejam devidamente propagadas por favor envie um email para `<eventos (arroba) tchelinux (ponto) org>` notificando o problema.
+As mudanças realizas deverão incidir no site `<cidade>`.tchelinux.org em até 30 minutos após o push ter sido realizado. 
+
+
+## Problemas com o Site
+
+Caso ocorra algum problema com o site do evento (URL não funcionar, falha na atualização etc) por favor envie um email para `<eventos (arroba) tchelinux (ponto) org>` e nos avise.
