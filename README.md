@@ -1,24 +1,22 @@
-Template do site para eventos do Tchelinux
-w
-==========================================
+# Template do site para eventos do Tchelinux
 
-# Sobre este documento
+## Sobre este documento
 
 Este é um template para sites de eventos do Tchelinux com uma grade com 5 horários e 5 salas em paralelo. O arquivo `index.html` pode ser totalmente customizado para ser adequado a quantidade de salas e horários de palestras.
 
-# Variáveis
+## Variáveis
 
 Para facilitar a criação do site todos os items variáveis estão identificados e podem ser facilmente substituidos em um editor de texto, ou um shell script. 
 
 A seguir temos a descrição de todas as variáveis e exemplos de valores a serem usados:
 
-## Dados do Evento
+### Dados do Evento
 
 As variáveis que definem detalhes do evento são descritas na tabela abaixo:
 
 | Variável                   | Significado                                 | Exemplo                                      |
 | ---------------------------| --------------------------------------------|----------------------------------------------|
-| $ANO	 	                 | Ano que o evento acontecerá                 | 2017                                         |
+| $ANO	                     | Ano que o evento acontecerá                 | 2017                                         |
 | $CIDADE                    | Cidade onde o evento acontecerá             | Porto Alegre                                 |
 | $DATA                      | Data do evento                              | 28 de Maio de 2017                           |
 | $INSTITUICAO               | Nome da Instituição sede do evento          | Faculdade SENAC Porto Alegre                 |
@@ -35,7 +33,7 @@ As variáveis que definem detalhes do evento são descritas na tabela abaixo:
 | $HORARIO_ALMOCO            | Horário do intervalo para almoço            | 12:00                                        |
 | $HORARIO_ENCERRAMENTO      | Horário do encerramento do evento           | 17:30                                        |
 
-## Programação e Palestrantes
+### Programação e Palestrantes
 
 As variáveis usadas para definir Salas, Horários, Palestras, Descrição, Palestrantes e Currículos possuem múltiplos valores, que utilizam o índice numérico N:
 
@@ -49,20 +47,20 @@ As variáveis usadas para definir Salas, Horários, Palestras, Descrição, Pale
 | $PALESTRA_N_CURRICULO      | Mini-curriculo do palestrante                 | Leonardo Vaz é voluntário do Tchelinux Porto Alegre |
 
 
-# Como utilizar este Template?
+## Como utilizar este Template?
 
 A seguir são descritos os pré-requisitos e procedimentos necessários para criar o site para um novo evento.
 
-## Pré-Requisitos
+### Pré-Requisitos
 
 - Conhecimentos básicos na Linguagem HTML
 - Conhecimentos no uso da ferramenta Git (clone, branch, commit, push etc)
 - Possuir uma conta no Github 
 - Usar um editor de texto
 
-## Procedimentos
+### Procedimentos
 
-Antes de começar a montar o site do evento, entrar em contato com Leonardo Vaz `<leonardo (ponto) vaz (arroba) gmail (ponto) com>` para solicitar a criação do repositório em `tchelinux-eventos`. Será requisitada o nome da conta no Github para que concedido acesso ao repositório do evento.
+Antes de começar a montar o site do evento, envie um email para `<eventos (arroba) tchelinux (ponto) org>` para solicitar a criação do repositório em `tchelinux-eventos` e informe o nome de seu usuário no Github para que acesso ao repositório do evento lhe seja concedido.
 
  1) Clonar o repositório deste template, substituindo <cidade> pelo nome da Cidade onde o evento ocorrerá:
 
@@ -117,4 +115,4 @@ var longitude = -51.2265906;
   $ git push -u origin master
 ~~~
 
-As mudanças realizas deverão incidir no site `<cidade>`.tchelinux.org em até 30 minutos após o push ter sido realizado. Utilize um web brow para verificar, e caso as mudanças não sejam devidamente propagadas favor entrar em contato com o Leonardo Vaz.
+As mudanças realizas deverão incidir no site `<cidade>`.tchelinux.org em até 30 minutos após o push ter sido realizado. Utilize um web brow para verificar, e caso as mudanças não sejam devidamente propagadas por favor envie um email para `<eventos (arroba) tchelinux (ponto) org>` notificando o problema.
