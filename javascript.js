@@ -47,8 +47,8 @@ $('.schedule-tbl a').on('click', function(event) {
 var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
-var latitude = -30.0351002;
-var longitude = -51.2265906;
+var latitude = -29.697987;
+var longitude = -52.438431;
 var ftec = new google.maps.LatLng(latitude, longitude);
 directionsDisplay = new google.maps.DirectionsRenderer();
 var mapOptions = {
