@@ -1,0 +1,41 @@
+{
+    "id": "santacruz",
+    "date": "2018-06-09",
+    "city": "Santa Cruz do Sul",
+    "institution": {
+        "courses": [
+            {
+                "name": "Diretório Acadêmico da Ciência da Computação (DACOMP)",
+                "url": "http://dacomp.forumeiros.com/"
+            }
+        ],
+        "long_name": "Universidade de Santa Cruz do Sul",
+        "short_name": "UNISC",
+        "address": "Avenida Independência, 2293 - Universitário, Santa Cruz do Sul, RS",
+        "url": "https://www.unisc.br",
+        "logo": "UNISC.png",
+        "latitude": -29.697607,
+        "longitude": -52.438544
+    },
+    "sponsors": [
+    ],
+    "support": [
+    ],
+    "rooms" : [
+        { "number": "1", "subject": "" },
+        { "number": "2", "subject": "" },
+        { "number": "3", "subject": "" }
+    ],
+    "callForPapers": {
+        "url": "https://goo.gl/forms/kwoNQGLNykd1zz9y2",
+        "deadline": "2018-05-13",
+        "start": "2018-04-21"
+    },  
+    "enrollment": {
+        "start": "2018-05-16",
+        "deadline": "2018-06-09",
+        "url": "https://goo.gl/forms/WDEpBSJG6Jekqkre2",
+        "availability": 200,
+        "closed": false
+    }   
+}

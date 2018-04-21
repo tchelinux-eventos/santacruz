@@ -2,685 +2,172 @@
 <html>
 <head>
     <base target="_blank">
-    <title>Tchelinux Santa Cruz - 2017</title>
+    <title>Tchelinux Santa Cruz do Sul - 2018</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-
     <!-- OpenGraph -->
     <meta property="og:image" content="https://tchelinux.org/assets/tchelinux-facebook.png">
-
-    <!-- Latest compiled and minified CSS -->
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style type="text/css">
-      html { height: 100% }
-      body { height: 100%; margin: 0; padding: 0 }
-      #map_canvas { height: 100% ; margin: 0 auto 0 auto; width: 80%; }
-      .schedule-time { font-weight: bold; }
-      .speaker { font-style: italic; }
-      .slides { margin: 0 0 0 -58px; padding: 2px 2px 2px 2px; font-size: small; }
-      a:hover > span.label.label-default.slides  { text-decoration: none; background-color:#222; }
-    </style>
-
+    <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <!--Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Tchelinux Style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-
-             <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Tchelinux</a>
-                </div>
-
-<!--
-
-                <!-- Collect the nav links, forms, and other content for toggling --|>
-                <div class="collapse navbar-collapse" id="main-navbar">
-                  <ul class="nav navbar-nav">
-                    <li style="display:none;"><a href="#sobre">Sobre</a></li>
-                    <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
-                    <li><a href="#programacao">Programa&ccedil;&atilde;o</a></li>
-                    <li><a href="#palestras">Palestras</a></li>
-                    <li><a href="#local">Local</a></li>
-                    <li><a href="#apoio">Apoio</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse --|>
--->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="main-navbar">
-                  <ul class="nav navbar-nav">
-                    <li style="display:none;"><a href="#sobre">Sobre</a></li>
-                    <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
-                    <li><a href="#certificados">Certificados</a></li>
-                    <li><a href="#programacao">Programação</a></li>
-                    <li><a href="#local">Local</a></li>
-                    <li><a href="#apoio">Apoio</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tchelinux</a>
         </div>
-    </nav>
-
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav">
+                <li style="display:none;"><a href="#sobre">Sobre</a></li>
+                <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#programacao">Programa&ccedil;&atilde;o</a></li>
+                <li><a href="#palestras">Palestras</a></li>
+                <li><a href="#local">Local</a></li>
+                <li><a href="#apoio">Apoio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <header class="header">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="Tchelinux Santa Cruz" itemprop="name">Tchelinux <br/>Santa Cruz</a>
+      <a class="logo-link" href="#" title="Tchelinux Santa Cruz do Sul" itemprop="name">Tchelinux <br/>Santa Cruz do Sul</a>
     </h1>
-    <h2 class="tagline">27 de Maio de 2017, UNISC</h2>
+    <h2 class="tagline">09 de junho de 2018, Universidade de Santa Cruz do Sul</h2>
   </div>
 </header>
 <section id="sobre">
     <div class ="container">
     <h2 class="subtitle">Sobre o Evento</h2>
-    <p>O grupo de usuários de Software Livre Tchelinux, em parceria com o
-        <a href="http://dacomp.forumeiros.com/">Diretório Acadêmico da Ciência da
-        Computação (DACOMP)</a> da <a href="https://www.unisc.br">UNISC</a>, tem o
-        prazer de convidar a comunidade, independente do nível de conhecimento
-        e experiência com tecnologia, software livre e áreas afins, para participar
-        do evento que ocorrerá no dia <b>27 de Maio de 2017</b> a partir das
-        8:30h na UNISC em Santa Cruz do Sul.</p>
-
-    <p><a href="codigo_de_conduta.html" target="_top"><b>Código de Conduta do Tchelinux.</b></a></p>
-
+    <p>O grupo de usu&aacute;rios de Software Livre Tchelinux, em parceria
+    com o curso <a href="http://dacomp.forumeiros.com/">Diretório Acadêmico da Ciência da Computação (DACOMP)</a>, da <a href="https://www.unisc.br">Universidade de Santa Cruz do Sul</a>,
+    tem o prazer de convidar a comunidade para participar do evento que
+    ocorrer&aacute; no dia <b>09 de junho de 2018</b> a partir das 8:30h na
+    UNISC em Santa Cruz do Sul.</p>
+    <p><a href="codigo_de_conduta.html" target="_top"><b>C&oacute;digo
+    de Conduta do Tchelinux.</b></a></p>
 </section>
 <section id="inscricao">
   <div class="container">
     <h2 class="subtitle">Inscri&ccedil;&otilde;es</h2>
-<!--
-    <p>
-        A participa&ccedil;&atilde;o no evento &eacute; <b>gratuita</b>
-        por&eacute;m os participantes s&atilde;o encorajados a doar 2kg
-        de alimentos n&atilde;o perec&iacute;veis (exceto sal) que
-        ser&atilde;o doados a institui&ccedil;&otilde;es de caridade.
-    </p>
-    <p>
-        Os alimentos ser&atilde;o recebidos no momento do credenciamento.
-    </p>
-    <p>
-        <b>As inscrições pelo site foram encerradas. Interessados poderão fazer inscrição no local do evento.</b>
-    <p>
--->
-    <p>Cerca de 100 participantes atenderam ao evento, onde foram arrecadados
-        mais de 140Kg de alimentos.</p>
+    
+        <p> O evento tem <b>entrada franca</b>, por&eacute;m os
+        participantes s&atilde;o encorajados a doar 2kg de alimentos
+        n&atilde;o perec&iacute;veis (exceto sal), que ser&atilde;o
+        doados a institui&ccedil;&otilde;es de caridade da
+        regi&atilde;o.</p>
+        <p>Os alimentos ser&atilde;o recebidos no momento do
+        credenciamento.</p>
+    
+        <p>As inscri&ccedil;&otilde;es para participação no evento
+        estarão abertas a partir do dia <b>16 de maio de 2018</b>,
+        até o dia <b>09 de junho de 2018</b>. Serão
+        disponibilizadas <b>200</b> vagas para o
+        evento.</p>
+    
   </div>
 </section>
-
-        <section id="certificados">
-          <div class="container">
-            <h2 class="subtitle">Certificados</h2>
-            <p>Obtenha seu certificado utilizando o email da inscrição no site <a href="https://certificados.tchelinux.org" target="_blank">https://certificados.tchelinux.org</a></p>
-            <!--
-            <p>Serão emitidos <b>certificados digitais</b> para os participantes do evento.</p>
-            -->
-          </div>
-        </section>
-
-    <!-- @PROGRAMACAO@ -->
-
+<section id="certificados">
+  <div class="container">
+    <h2 class="subtitle">Certificados</h2>
+    
+        <p>Serão fornecidos certificados digitais para os participantes
+        do evento. Para obtê-los, você deverá utilizar o email fornecido
+        na sua inscrição para o evento.</p>
+    
+  </div>
+</section>
 <section id="programacao">
-<div class="container">
-<h2 class="subtitle">Programa&ccedil;&atilde;o</h2>
+    <div class="container">
+        <h2 class="subtitle">Programação</h2>
+        <p>O evento está com a chamada de trabalhos aberta. Assim que a
+        programação começar a ser definida, será divulgada nesse espaço.
+        </p>
+    </div>
+</section>
 
-<div class="schedule-tbl">
-    <table class="table table-responsive">
-        <thead>
-            <tr>
-                <th class="schedule-time">Hor&aacute;rio</th>
-                <td class="schedule-slot" colspan="1" style="text-align:center">
-                    Sala 1806
-                </td>
-                <td class="schedule-slot" colspan="1" style="text-align:center">
-                    Sala 1807
-                </td>
-                <td class="schedule-slot" colspan="1" style="text-align:center">
-                    Sala 1808
-                </td>
-            </tr>
-        </thead>
-        <tbody>
-
-            <tr class="schedule-other">
-                <td class="schedule-time">08:30</td>
-                <td class="schedule-slot" colspan="3" style="text-align:center">
-                    Recep&ccedil;&atilde;o / Credenciamento - Anfiteatro (Bloco 18)
-                </td>
-            </tr>
-
-            <tr class="schedule-other">
-                <td class="schedule-time">09:00</td>
-                <td class="schedule-slot" colspan="3" style="text-align:center">
-                    Abertura - Anfiteatro (Bloco 18)
-                </td>
-            </tr>
-
-            <tr class="schedule-other">
-            <td class="schedule-time">09:30</td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-1"><span class="description">O &quot;Unit&quot; em &quot;Unit tests&quot;</span></a><span class="label label-warning">Intermediário</span><span class="speaker">Julio Biason</span>  </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-2"><span class="description">Git para desenvolvedores<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">Leo Vaz</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-3"><span class="description">Distribuições Linux<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">Rafael Guterres Jeffman</span> </td>
-            </tr>
-            <tr class="schedule-other">
-            <td class="schedule-time">10:30</td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-4"><span class="description">...porque no MEU TEMPO: Comparativo entre algumas tecnologias atuais com 10+ anos atrás<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">Fabio Beneditto</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-5"><span class="description">Shell Scripts: uma interface para o Linux<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">João Avelino</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-6"><span class="description">Segurança em Internet das Coisas?<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Iván Lasso</span> </td>
-            </tr>
-            <tr class="schedule-other">
-                <td class="schedule-time">11:30</td>
-                <td class="schedule-slot" colspan="3" style="text-align:center">
-            <span class="description">Intervalo para Almoço</span>
-            <span class="speaker"></span>
-            </tr>
-
-            <tr class="schedule-other">
-            <td class="schedule-time">13:00</td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-7"><span class="description">Docker, do compose ao Swarm<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Cristiano Diedrich</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-8"><span class="description">Visão computacional com Python e OpenCV<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Rafael Jeffman</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-9"><span class="description">Repaint &amp; Reflow: Renderizando uma página web<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">Robson Junior</span> </td>
-            </tr>
-            <tr class="schedule-other">
-            <td class="schedule-time">14:00</td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-10"><span class="description">Virtualização para Usuários<br/></span></a> <span class="label label-success">Principiante</span><span class="speaker">Daniel Lara</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-11"><span class="description">Python 2 + 3 = Six<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Julio Biason</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-12"><span class="description">MicrosServiços: Distribuindo serviços críticos ao negócio<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Fernando Silva</span> </td>
-            </tr>
-            <tr class="schedule-other">
-                <td class="schedule-time">15:00</td>
-                <td class="schedule-slot" colspan="3" style="text-align:center">
-            <span class="description">Coffe-Break</span>
-            <span class="speaker"></span>
-            </tr>
-
-            <tr class="schedule-other">
-            <td class="schedule-time">15:30</td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-13"><span class="description">Introdução ao Ceph<br/></span></a> <span class="label label-warning">Intermediario</span><span class="speaker">Leo Vaz</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-14"><span class="description">Pelo empoderamento do Hacker/ Maker/ Educador e Nerds afins!<br/></span></a><span class="label label-success">Principiante</span> <span class="speaker">Luis Rauber</span> </td>
-            <td class="schedule-slot" colspan="1" style="text-align: center"> <a href="#speech-15"><span class="description">Infinity Power<br/></span></a> <span class="label label-warning">Intermediário</span><span class="speaker">Robson Junior</span> </td>
-            </tr>
-
-            <tr class="schedule-other">
-                <td class="schedule-time">16:30</td>
-                <td class="schedule-slot" colspan="3" style="text-align:center">
-                    Painel "O Software Livre e o Mercado de Trabalho" - Anfiteatro<br/>
-                    <span class="label label-info">Todo o Público</span><span class="speaker">Todos os Palestrantes</span>
-
-                    <span class="speaker">Rafael Jeffman (Moderador)</span>
-                </td>
-            </tr>
-
-
-                            </tbody>
-                        </table>
-                    </div>
-
-
-                    </div>
-                </section>
-
-                <section id="palestras">
-                    <div class="container">
-                        <h2 class="subtitle">Palestras</h2>
-<!-- ALTERAR A PARTIR DAQUI -->
-
-	<div id="speech-1" class=speech-container>
- 		<span class="speech-time">09:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">
-            O &quot;Unit&quot; em &quot;Unit tests&quot;
-        <a href="https://presentations.juliobiason.net/unit-in-unittest.html">
-            <span class="label label-default slides">SLIDES</span>
-        </a>
-        </h3>
- 		<span class="speech-description">Muitas vezes discutimos qual é a
-            unidade de "testes de unidade", mas essa discussão é correta?
-            Era isso que Kent Beck quis dizer quando descreveu Test Driven
-            Development?
-        </span>
- 		<h3 class="speaker-name">Julio Biason</h3>
-        <span class="speaker-bio">Julio Biason é programador Python desde
-            a versão 1.5. Em 10 anos de trabalho com Python, aprendeu
-            alguns detalhes sobre a linguagem.
-        </span>
- 	</div>
-
-	<div id="speech-2" class=speech-container>
- 		<span class="speech-time">09:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Git para desenvolvedores
-            <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">O Git é uma ferramenta para control
-             e gerenciamento de código fonte, inicialmente projetado e
-             desenvolvido por Linus Torvalds para o desenvolvimento do
-             kernel Linux, porém adotado por muitos outros projetos
-             posteriormente devido a suas características e velociada.
-             Nesta palestra veremos uma introdução ao Git e seus principais
-             casos de uso dentro do fluxo de trabalho de um desenvolvedor.
-         </span>
- 		<h3 class="speaker-name">Leo Vaz</h3>
- 		<span class="speaker-bio">Leonardo Vaz teve seu primeiro contato
-            com o Software Livre no final de 1998, quando instalou o Red
-            Hat Linux 5.1 no seu antigo PC, e no últimos 19 anos tem
-            participado da comunidade Brasileira. Atualmente trabalha
-            com Sistemas de Arquivos distribuídos no time de Engenharia
-            de Suporte da Red Hat.
-        </span>
- 	</div>
-
-	<div id="speech-3" class=speech-container>
- 		<span class="speech-time">09:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Distribuições Linux
-            <a href="http://rafaeljeffman.com/slides/linux_distros.pdf">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Um histórico das distribuições
-            Linux, mostrando o porquê da sua criação, de onde vieram,
-            como criá-las, e terminando na sua "última distribuição Linux".
-        </span>
- 		<h3 class="speaker-name">Rafael Guterres Jeffman</h3>
- 		<span class="speaker-bio">Mestre em Computação Aplicada pela Unisinos,
-            é professor na Faculdade Senac Porto Alegre, onde leciona as
-            disciplinas de algoritmos e estruturas de dados. Seus interesses
-            de pesquisa são a percepção do mundo por computadores, através da
-            visão computacional e do reconhecimento de voz, inteligência
-            artificial, machine learning, e o ensivo de linguagens de
-            programação assistido por computadores. Fotógrafo, iniciou
-            um projeto para a criação de um ambiente baseado apenas em
-            software livre para fotografia profissional.
-        </span>
- 	</div>
-
-	<div id="speech-4" class=speech-container>
- 		<span class="speech-time">10:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">...porque no MEU TEMPO: Comparativo entre algumas tecnologias atuais com 10+ anos atrás
-            <a href="https://www.slideshare.net/fabiobeneditto/porque-no-meu-tempo">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Voltada para todos os tipos de
-            público, é uma apresentação / comparação sobre as tecnologias
-            atuais em relação às disponíveis há 10 ou 15 anos atrás.
-            Distribuições de Software, configuração de hardware, programas,
-            redes sociais: o quanto isso pode mudar em 15 anos?
-        </span>
- 		<h3 class="speaker-name">Fabio Beneditto</h3>
- 		<span class="speaker-bio">Entusiasta de Software Livre desde 1999,
-            graduado em Sistemas para Internet na Feevale, Analista
-            Desenvolvedor Web na SG Soluções Globais, voluntário no SUMO
-            (Suporte Mozilla). Defende o uso de padrões abertos na Internet.
-            Aprecia muito PHP e JavaScript, assim como Postgresql. Usuário
-            GNU/Linux desde 1999, membro das comunidades SoftwareLivre-VS,
-            Mozilla Brasil e Tchelinux.
-        </span>
- 	</div>
-
-	<div id="speech-5" class=speech-container>
- 		<span class="speech-time">10:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Shell Scripts: uma interface para o Linux
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9Z29IVlFreEl5d0k">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9T3BFSHZwV2pMZVU">
-                <span class="label label-default slides">CODE</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Apresentação de utilitários para construir interfaces amigáveis para shell scripts.</span>
- 		<h3 class="speaker-name">João Avelino</h3>
- 		<span class="speaker-bio">Tecnólogo em Processamento de Dados pela
-            UCPel, Mestre em Ciência da Computação pela UFRGS. Ministrou
-            aulas na UCPel e Faculdade SENAC Porto Alegre. Atualmente é
-            Software Maintenance Engineer na Red Hat especializado em redes.
-        </span>
- 	</div>
-
-	<div id="speech-6" class=speech-container>
- 		<span class="speech-time">10:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Segurança em Internet das Coisas?
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9LXVnLXFJZlhDdm8">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Intermet das Coisas não é uma
-            coisa do futuro, é uma realidade do nosso presente.
-            Hyperconetados, cheio de gadgets e de senhas por gerenciar,
-            poucas vezes nos preocupamos por nossa segurança na rede.</span>
- 		<h3 class="speaker-name">Iván Lasso</h3>
- 		<span class="speaker-bio">Kali Linux, Parrot OS, WordPress, Rasperry Pi, Arduino.
-Corro de manha, trabalho numa empresa de software na área de negócios internacionais como
-analista de  projetos no dia e à noite luto para não dormir. O único que fiz na vida foi
-viajar um pouco. Sou formado de Tecnologia em Mecatrônica pela CIDE e de Redes e Segurançada
-Informação pela Uniminito, as duas em Bogotá Colômbia. Trabalho com software livre desde faz
-oito ano, não sou um idealista ao respeito, simplesmente penso que uma forma de aprender é
-difundir o conhecimento e o software livre o permite por natureza.
-        </span>
- 	</div>
-
-	<div id="speech-7" class=speech-container>
- 		<span class="speech-time">13:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Docker, do compose ao Swarm
-            <a href="https://www.slideshare.net/MundoDocker/docker-do-compose-ao-swarm">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Docker vem evoluindo muito, e
-            agregando funcionalidades que facilitam cada vez mais o
-            processo de gerenciamento e deploy de aplicações. Vamos
-            entender nessa apresentação o que mudou nas ultimas versões
-            e como isso pode afetar a sua produtividade.
-        </span>
- 		<h3 class="speaker-name">Cristiano Diedrich</h3>
- 		<span class="speaker-bio">Formando em sistemas de informação,
-            trabalha na Umbler, uma startup de hosting sob demanda.
-            Co-fundador do maior blog sobre Docker no Brasil, o
-            mundoDocker. Apaixonado por tecnologias Open Source, com as
-            quais trabalha ha mais de 12 anos.
-        </span>
- 	</div>
-
-	<div id="speech-8" class=speech-container>
- 		<span class="speech-time">13:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Visão computacional com Python e OpenCV
-            <a href="http://rafaeljeffman.com/slides/opencv_python.pdf">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-            <a href="https://github.com/rafasgj/tchelinux-code/tree/master/SantaCruz2017/code">
-                <span class="label label-default slides">CODE</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Nesta palestra, será apresentada uma
-            introdução à visão computacional, utilizando Python e OpenCV,
-            onde será construída uma aplicação para reconhecer faces, e
-            processá-las.
-        </span>
- 		<h3 class="speaker-name">Rafael Jeffman</h3>
- 		<span class="speaker-bio">Mestre em Computação Aplicada pela Unisinos,
-            é professor na Faculdade Senac Porto Alegre, onde leciona as
-            disciplinas de algoritmos e estruturas de dados. Seus interesses
-            de pesquisa são a percepção do mundo por computadores, através da
-            visão computacional e do reconhecimento de voz, inteligência
-            artificial, machine learning, e o ensivo de linguagens de
-            programação assistido por computadores. Fotógrafo, iniciou
-            um projeto para a criação de um ambiente baseado apenas em
-            software livre para fotografia profissional.
-        </span>
- 	</div>
-
-	<div id="speech-9" class=speech-container>
- 		<span class="speech-time">13:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Repaint &amp; Reflow: Renderizando uma página web
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9QjROQUJ2c3FhLVk">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description"> Aborda assuntos como HTML, CSS,
-            DOM, CSSOM, REPAINT, e REFLOW. Tudo isso de uma forma que
-            conseguimos entender todo o trabalho que o navegador tem para
-            renderizar uma página web.
-        </span>
- 		<h3 class="speaker-name">Robson Junior</h3>
- 		<span class="speaker-bio">Estudante de Análise e Desenvolvimento
-            de Sistemas no SenacRS, membro da Organização JSRocks,
-            Analísta e Web Developer no Terra Networks S/A. Possui 24
-            anos de idade, atua na área há 4 anos e atualmente reside na
-            imensidão da Weblândia.
-        </span>
- 	</div>
-
-	<div id="speech-10" class=speech-container>
- 		<span class="speech-time">14:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Virtualização para Usuários
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9STgtcU5jNjhOZEU">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Para o Pessoal que tem alguma
-            dificuldade em virtualização, nessa palestra vamos abortar
-            de maneia clara e fácil o uso da virtualização nativa do Linux.
-        </span>
- 		<h3 class="speaker-name">Daniel Lara</h3>
- 		<span class="speaker-bio">Sysadmin ,usário de GNU/Linux a 12 anos,
-            Embaixador do Projeto Fedora no Brasil, Coordenador do time
-            de tradução do pt_BR do fedora, Empacotador do Fedora, Faz parte
-            da Equipe de moderadores do Viva o Linux, e tem vida social.
-        </span>
- 	</div>
-
-	<div id="speech-11" class=speech-container>
- 		<span class="speech-time">14:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Python 2 + 3 = Six
-            <a href="https://presentations.juliobiason.net/python23six.html">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Python 3 possui algumas diferenças
-            para o Python 2. Como manter projetos que continuem rodando
-            na plataforma atual mas que possam ser facilmente atualizados
-            no futuro? Six é a resposta.
-        </span>
- 		<h3 class="speaker-name">Julio Biason</h3>
- 		<span class="speaker-bio">Julio Biason é programador Python desde
-            a versão 1.5. Em 10 anos de trabalho com Python, aprendeu
-            alguns detalhes sobre a linguagem.
-        </span>
- 	</div>
-
-	<div id="speech-12" class=speech-container>
- 		<span class="speech-time">14:00</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">MicrosServiços: Distribuindo serviços críticos ao negócio
-            <a href="https://speakerdeck.com/fernandodebrando/microsservicos-distribuindo-servicos-criticos-ao-negocio">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Apresentação de um case que aborda
-            conceitos, problemas, possíveis soluções sobre microsserviços,
-            escalabilidade, componentização, descentralização e resiliência.
-            Este case trata de um projeto de simplificação de processo de
-            compra de um ecommerce de serviços, visando o aumento da taxa
-            de conversão e permitindo o reaproveitamento em projetos já
-            existentes e futuros.
-        </span>
- 		<h3 class="speaker-name">Fernando Silva</h3>
- 		<span class="speaker-bio">Analista de Desenvolvimento na empresa
-            KingHost, graduado em Análise e Desenvolvimento de Sistemas
-            (ADS) pela Faculdade Senac Porto Alegre, ganhador do Prêmio
-            Keller de melhor trajetória acadêmica, um dos coordenadores
-            da Comunidade PHPRS (grupo de desenvolvedores PHP do Rio
-            Grande do Sul) e entusiasta Open Source e Software Livre.
-        </span>
- 	</div>
-
-	<div id="speech-13" class=speech-container>
- 		<span class="speech-time">15:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Introdução ao Ceph
-            <a href="#">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">
-            Ceph é um sistema de arquivos distribuído projetado para
-            ter excelente desempenho, confiabilidade e escalabilidade.
-            Nesta palestra será abordada a arquitetura do Ceph e também
-            seus principais casos de uso.
-        </span>
- 		<h3 class="speaker-name">Leo Vaz</h3>
- 		<span class="speaker-bio">Leonardo Vaz teve seu primeiro contato
-            com o Software Livre no final de 1998, quando instalou o
-            Red Hat Linux 5.1 no seu antigo PC, e no últimos 19 anos
-            tem  participado da comunidade Brasileira. Atualmente trabalha
-            com Sistemas de Arquivos distribuídos no time de Engenharia de
-            Suporte da Red Hat.
-        </span>
- 	</div>
-    <div id="speech-14" class=speech-container>
- 		<span class="speech-time">15:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Pelo empoderamento do Hacker/ Maker/ Educador e Nerds afins!
-            <a href="https://www.slideshare.net/mobile/luizrauber/pelo-empoderamento-do-hacker-maker-educador-e-nerds-afins">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Chega um momento que dá vontade
-            de dizer chega, né? Mas uns, como eu, não conseguem,
-            pois querem que pessoinhas com midi-chlorians evoluam. Assim
-            esta palestra (mais discussão que explanação) é o resumo de
-            andanças e aprendizados fundamentais que culminam na sugestão
-            de projetos para o empoderamento do Hacker, Maker, Educador
-            e Nerds afins!
-        </span>
- 		<h3 class="speaker-name">Luis Rauber</h3>
- 		<span class="speaker-bio">Professor e pesquisador em assuntos
-            relacionados a tecnologias de software e hardware livres e
-            ao ecossistema hacker/maker e de startups. Professor no SENAC
-            Santa Cruz do Sul e in company; Voluntário nos projetos
-            educacionais CodeClubeBrasil.org e JabutiEdu.org e no Grupo
-            Tchelinux.org; Doutorando em Tecnologia Ambiental, Mestre em
-            Nanociências, Especialista em Gerenciamento de Projetos,
-            Bacharel em Ciência da Computação e Técnico em Informática;
-            Palestras em Campus Party/Latinoware/FISL/FGSL e em eventos
-            locais; Mentorias em Startups Weekends.
-        </span>
- 	</div>
-	<div id="speech-15" class=speech-container>
- 		<span class="speech-time">15:30</span>
- 		<div class="speech-info">
- 		<h3 class="speech-title">Infinity Power
-            <a href="https://drive.google.com/open?id=0B1Bf151oPhB9VWJhMF9EdUV1a2M">
-                <span class="label label-default slides">SLIDES</span>
-            </a>
-        </h3>
- 		<span class="speech-description">Estamos em 2017 há 22 anos atrás
-            nascia o nosso gigante e poderoso JavaScript. Vamos ver o
-            quanto o JavaScript evoluiu e o porque ele é tão poderoso de
-            uma forma simples de ser compreendida, sendo único e
-            revolucionário para a web e o mundo da tecnologia!
-        </span>
- 		<h3 class="speaker-name">Robson Junior</h3>
-        <span class="speaker-bio">Estudante de Análise e Desenvolvimento
-            de Sistemas no SenacRS, membro da Organização JSRocks,
-            Analísta e Web Developer no Terra Networks S/A. Possui 24
-            anos de idade, atua na área há 4 anos e atualmente reside na
-            imensidão da Weblândia.
-        </span>
- 	</div>
-<!-- ALTERAR ATÉ PARTIR DAQUI -->
-
-            </div>
-        </section>
-
+<section id="call4papers">
+    <div class="container">
+        <h2 class="subtitle">Chamada de Trabalhos</h2>
+        <p>A Chamada de Trabalhos para o Tchelinux Santa Cruz do Sul está aberta e
+        caso você tenha interesse em submeter uma palestra, por favor,
+        preencha o <a target="_blank" href="https://goo.gl/forms/kwoNQGLNykd1zz9y2">
+        formulário de submissão de palestras</a>.</p>
+        <p>O prazo máximo para submissão é
+        <b>13 de maio de 2018</b>, e os trabalhos escolhidos
+        serão publicados no dia <b>16 de maio de 2018.</b></p>
+        <p><a target="_blank" href="https://goo.gl/forms/kwoNQGLNykd1zz9y2">Clique aqui e
+        submeta sua Palestra agora mesmo!</a></p>
+    </div>
+</section>
 <section id="local">
-<div class="container">
-  <h2 class="subtitle">Local</h2>
-  <p>
-    UNISC<br/>
-    Av. Independência, 2293<br/>
-    Santa Cruz - Rio Grande do Sul
-  </p>
-  <div id="map_canvas" style="width: 100%; height: 350px;"></div>
-  <input type="text" id="search-route" class="form-control" placeholder="Digite sua localização">
-  <div id="directions-panel"></div>
-
-  <br />
-
-  <h4>Mapa da UNISC</h4>
-
-  <br />
-
-
-     <img src="images/MAPA.png" alt="UNISC" class="photo"/>
-
-
-
-</div>
+    <script>
+        var latitude = -29.697607
+        var longitude = -52.438544
+    </script>
+    <div class="container">
+        <h2 class="subtitle">Local</h2>
+        <p>
+            Universidade de Santa Cruz do Sul<br/>
+            Avenida Independência, 2293 - Universitário<br/>
+            Santa Cruz do Sul - Rio Grande do Sul
+        </p>
+        <div id="map_canvas" style="width: 100%; height: 350px;"></div>
+        <input type="text" id="search-route" class="form-control" placeholder="Digite sua localiza&ccedil;&atilde;o">
+        <div id="directions-panel"></div>
+        
+    </div>
 </section>
 <section id="apoio">
     <div class="container">
-        <h2 class="subtitle">Apoio</h2>
-        <h4>Institucional</h4>
-
-        <ul class="apoio-list">
-
-          <li class="apoio-item">
-            <a href="https://www.unisc.br/pt/" title="Instituição" class="apoio-logo apoio-link" target="_blank" style="width:250px">
-              <img src="images/UNISC.png" alt="UNISC" class="photo"/>
-            </a>
-          </li>
-
-          <li class="apoio-item">
-            <a href="http://dacomp.forumeiros.com/" title="DACOMP" class="apoio-logo apoio-link" target="_blank" style="width:250px">
-              <img src="images/DACOMP.png" alt="DACOMP" class="photo"/>
-            </a>
-          </li>
-
-        </ul>
-
-	<br />
-	<br />
-	<br />
-	<br />
-
-	<h4>Patrocinio</h4>
-
-        <ul class="apoio-list">
-
-          <li class="apoio-item">
-            <a href="http://www.imply.com/" title="Imply" class="apoio-logo apoio-link" target="_blank" style="width:250px">
-              <img src="images/IMPLY.png" alt="Imply" class="photo"/>
-            </a>
-          </li>
-
-
-          <li class="apoio-item">
-            <a href="http://www.idealogic.com.br/" title="Idealogic Software" class="apoio-logo apoio-link" target="_blank" style="width:250px">
-              <img src="images/IDEALOGIC.png" alt="Idealogic Software" class="photo"/>
-            </a>
-          </li>
-
-        </ul>
-        <h4>Gostaria de Patrocinar os eventos do Tchelinux?</h4>
-        <ul class="apoio-item">
-          <li class="apoio-item">
-            <a href="https://goo.gl/eLSqYm" title="Seja um patrocinador" class="apoio-logo apoio-link" target="_blank">
-              <span class="glyphicon glyphicon-plus"></span>
-            </a>
-          </li>
-        </ul>
+        <div id="apoio_evento">
+            <h2 class="subtitle">Apoio</h2>
+            
+            <h4>Institucional</h4>
+            <ul class="apoio-list">
+                <li class="apoio-item">
+                    <a href="https://www.unisc.br" title="Institui&ccedil;&atilde;o" class="apoio-logo apoio-link">
+                    <img src="images/UNISC.png" alt="UNISC" class="photo"/>
+                    </a>
+                </li>
+                
+            </ul>
+            <h4>Gostaria de patrocinar os eventos do Tchelinux?</h4>
+            <ul class="apoio-list">
+                <li class="apoio-item">
+                    <a href="https://goo.gl/eLSqYm" title="Seja um patrocinador" class="apoio-logo apoio-link">
+                    <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
+
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <ul class="list-inline" id="footer-menu">
                     <li class="active"><a href="#">Tchelinux</a></li>
+                    <li><a href="#inscricao">Inscri&ccedil;&otilde;es</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
                     <li><a href="#programacao">Programa&ccedil;&atilde;o</a></li>
                     <li><a href="#palestras">Palestras</a></li>
                     <li><a href="#local">Local</a></li>
@@ -690,9 +177,11 @@ difundir o conhecimento e o software livre o permite por natureza.
         </div>
     </div>
 </footer>
-<div style="display:none;">
-    <script type="text/javascript" src="javascript.js"></script>
+<div style="display:none">
+    <!-- Site scripts -->
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <!-- scrollspy -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/scrollspy.min.js"></script>
 </div>
 </body>
-</html>
+<html>
