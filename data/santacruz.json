@@ -22,9 +22,9 @@
     "support": [
     ],
     "rooms" : [
-        { "number": "1", "subject": "" },
-        { "number": "2", "subject": "" },
-        { "number": "3", "subject": "" }
+        { "number": "1", "subject": "Desenvolvimento, DevOps e Cloud" },
+        { "number": "2", "subject": "IoT, Segurança e SysAdmin" },
+        { "number": "3", "subject": "Comunidade e Filosofia, Empreendedorismo e Distros" }
     ],
     "callForPapers": {
         "url": "https://goo.gl/forms/kwoNQGLNykd1zz9y2",
