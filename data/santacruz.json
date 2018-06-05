@@ -13,18 +13,24 @@
         "short_name": "UNISC",
         "address": "Avenida Independência, 2293 - Universitário, Santa Cruz do Sul, RS",
         "url": "https://www.unisc.br",
-        "logo": "UNISC.png",
+        "logo": "unisc.jpg",
         "latitude": -29.697607,
         "longitude": -52.438544
     },
     "sponsors": [
+        {
+            "long_name": "Associação das Empresas de Tecnologia e Informação - Vale do Rio Pardo e Taquari",
+            "short_name": "ATIVALES",
+            "logo": "ativales.jpg",
+            "url": "http://www.ativales.com.br"
+        }
     ],
     "support": [
         {
             "long_name": "Diretório Acadêmico da Ciência da Computação",
             "short_name": "DACOMP",
             "url": "http://dacomp.forumeiros.com/",
-            "logo": "images/DACOMP.png"
+            "logo": "dacomp.jpg"
         }
     ],
     "rooms" : [
