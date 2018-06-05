@@ -28,10 +28,10 @@
         }
     ],
     "rooms" : [
-        { "number": "1", "subject": "Desenvolvimento" },
-        { "number": "2", "subject": "DevOps e Cloud Computing" },
-        { "number": "3", "subject": "IoT, Segurança e SysAdmin" },
-        { "number": "4", "subject": "Comunidade, Empreendedorismo e Distros" }
+        { "number": "102", "subject": "Desenvolvimento" },
+        { "number": "103", "subject": "DevOps e Cloud Computing" },
+        { "number": "106", "subject": "IoT, Segurança e SysAdmin" },
+        { "number": "202", "subject": "Comunidade, Empreendedorismo e Distros" }
     ],
     "callForPapers": {
         "url": "https://goo.gl/forms/kwoNQGLNykd1zz9y2",
