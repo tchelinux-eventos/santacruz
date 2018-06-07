@@ -29,6 +29,12 @@
             "short_name": "Idealogic",
             "logo": "idealogic.jpg",
             "url": "http://www.idalogic.com.br"
+        },
+        {
+            "long_name": "Umbler",
+            "short_name": "Umbler",
+            "logo": "umbler.png",
+            "url": "http://www.umbler.com.br"
         }
     ],
     "support": [
