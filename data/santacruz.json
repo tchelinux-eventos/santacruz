@@ -15,7 +15,8 @@
         "url": "https://www.unisc.br",
         "logo": "unisc.jpg",
         "latitude": -29.697607,
-        "longitude": -52.438544
+        "longitude": -52.438544,
+        "local_map": "map.jpg"
     },
     "sponsors": [
         {
@@ -34,7 +35,7 @@
             "long_name": "Umbler",
             "short_name": "Umbler",
             "logo": "umbler.png",
-            "url": "http://www.umbler.com.br"
+            "url": "http://www.umbler.com"
         }
     ],
     "support": [
