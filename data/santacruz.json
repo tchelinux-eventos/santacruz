@@ -62,6 +62,6 @@
         "deadline": "2018-06-09",
         "url": "https://goo.gl/forms/WDEpBSJG6Jekqkre2",
         "availability": 200,
-        "closed": false
+        "closed": true
     }   
 }
