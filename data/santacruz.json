@@ -50,7 +50,7 @@
         { "number": "102", "subject": "Desenvolvimento" },
         { "number": "103", "subject": "DevOps e Cloud Computing" },
         { "number": "106", "subject": "IoT, Segurança e SysAdmin" },
-        { "number": "202", "subject": "Comunidade, Empreendedorismo e Distros" }
+        { "number": "101", "subject": "Comunidade, Empreendedorismo e Distros" }
     ],
     "callForPapers": {
         "url": "https://goo.gl/forms/kwoNQGLNykd1zz9y2",
@@ -63,5 +63,9 @@
         "url": "https://goo.gl/forms/WDEpBSJG6Jekqkre2",
         "availability": 200,
         "closed": true
-    }   
+    },
+    "result": {
+        "donations": 100,
+        "attendants": 130
+    } 
 }
