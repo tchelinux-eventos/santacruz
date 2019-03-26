@@ -28,7 +28,7 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 | **12:00** <td colspan=5><center>**Intervalo para Almoço**</center> |
 | **13:30** | [**DIY: Joystick arcade com Arduino**](#DIY:_Joystick_arcade_com_Arduino) <br> <span class="label label-warning">Intermediário</span> <br> Alex Veloso da Silveira | [**Uma Não-Gentil Introdução ao Stream Processing**](#Uma_Não-Gentil_Introdução_ao_Stream_Processing) <br> <span class="label label-warning">Intermediário</span> <br> Julio Biason | [**NGiNX - O motor da sua aplicação Web**](#NGiNX_-_O_motor_da_sua_aplicação_Web) <br> <span class="label label-warning">Intermediário</span> <br> Ernani Azevedo | [**10 anos de cerv.. cafés depois do Santa Cruz do Sul 25/04/2009**](#10_anos_de_cerv.._cafés_depois_do_Santa_Cruz_do_Sul_25-04-2009) <br> <span class="label label-success">Principiante</span> <br> Luiz Henrique Rauber Rodrigues |
 | **14:20** | [**DevOps para sistemas embarcados**](#DevOps_para_sistemas_embarcados) <br> <span class="label label-warning">Intermediário</span> <br> Eduardo Witter <br> Diego Cardoso Garcia | [**Por que a galinha atravessou a rua?**](#Por_que_a_galinha_atravessou_a_rua?) <br> <span class="label label-success">Principiante</span> <br> Alan Mussoi | [**DevOps: Passado, presente e futuro**](#DevOps:_Passado,_presente_e_futuro) <br> <span class="label label-warning">Intermediário</span> <br> Cristiano Diedrich | [**Inovações no mundo das distribuições Linux**](#Inovações_no_mundo_das_distribuições_Linux) <br> <span class="label label-success">Principiante</span> <br> Victor Hugo Aguiar Pacce |
-| **15:10** | [**Uma introdução a teste de software em sistemas embarcados**](#Uma_introdução_a_teste_de_software_em_sistemas_embarcados) <br> <span class="label label-success">Principiante</span> <br> Luana de Freitas | [**Web apps em qualquer lugar - 12 Factor App**](#Web_apps_em_qualquer_lugar_-_12_Factor_App) <br> <span class="label label-warning">Intermediário</span> <br> Tonin Bolzan | [**Iniciando com Kubernetes**](#Iniciando_com_Kubernetes) <br> <span class="label label-warning">Intermediário</span> <br> Cristhian Bicca  | [**Duas décadas de Software Livre: Memórias e reflexões**](#Duas_décadas_de_Software_Livre:_Memórias_e_reflexões) <br> <span class="label label-success">Principiante</span> <br> Leonardo Vaz |
+| **15:10** | [**Uma introdução a teste de software em sistemas embarcados**](#Uma_introdução_a_teste_de_software_em_sistemas_embarcados) <br> <span class="label label-success">Principiante</span> <br> Luana de Freitas | [**Web apps em qualquer lugar - 12 Factor App**](#Web_apps_em_qualquer_lugar_-_12_Factor_App) <br> <span class="label label-warning">Intermediário</span> <br> Tonin Bolzan | [**Iniciando com Kubernetes**](#Iniciando_com_Kubernetes) <br> <span class="label label-warning">Intermediário</span> <br> Cristhian Bicca  | [**Software Livre no serviço Público**](#Software_Livre_no_serviço_Público) <br> <span class="label label-success">Principiante</span> <br> Pablo de Andrades Lima |
 | **16:00** <td colspan=5><center>**Coffee-Break**</center> |
 | **16:30** <td colspan=5><center>**Encerramento**<br> <span class="label label-info">Todo o público</span> <br>   Equipe Tchelinux  <br> </center> |
 
@@ -231,14 +231,13 @@ O objetivo desta apresentação é explicar o que é Kubernetes, como ele funcio
 
 [Cristhian Bicca](https://www.mundodocker.com.br/) é Entusiasta e praticante da cultura DevOps, acredito que a melhor forma de aprender é compartilhando o conhecimento, então procuro sempre participar de eventos tanto como palestrante como também assistir, quando não estou trabalhando procuro passar o conhecimento através do meu blog.
 
-### Duas décadas de Software Livre: Memórias e reflexões
+### Software Livre no serviço Público
 
-Algumas memórias e reflexões de alguém que instalou Linux no fim de 1998 e que vem usando ele como sistema operacional principal desde então.
+Apresentar os impactos e benefícios do uso do software livre na gestão pública, bem como vantagens e desvantagens. 
 
-### Leonardo Vaz
+### Pablo de Andrades Lima
 
-[Leonardo Vaz](https://github.com/leonardovaz) teve seu primeiro contato com o Linux em 1998 e desde então vem rodando sistemas operacionais livres em todos seus computadores. Em 2006 ajudou a fundar o Tchelinux com seus amigos e desde então é um dos voluntários da organização do grupo.
-
+[Pablo de Andrades Lima](www.facebook.com/pablocandiota) é Técnico Regional de TI da Emater e Estudante de Engenharia de Computação da Unipampa Campus Bagé.
 
 ## Local
 
