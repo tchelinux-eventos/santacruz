@@ -24,10 +24,10 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 | **09:00** <td colspan=5><center>**Abertura**<br> <span class="label label-info">Todo o público</span> <br>   Equipe Tchelinux  <br> </center> |
 | **09:30** | [**Desenvolvendo Jogos com PyGame**](#Desenvolvendo_Jogos_com_PyGame) <br> <span class="label label-success">Principiante</span> <br> Rafael Jeffman | [**Introdução ao Spring Boot MVC no Java Servlet Stack com a aplicação Pet Clinic**](#Introdução_ao_Spring_Boot_MVC_no_Java_Servlet_Stack_com_a_aplicação_Pet_Clinic) <br> <span class="label label-success">Principiante</span> <br> Marco Mangan | [**Monitoramento com Zabbix**](#Monitoramento_com_Zabbix) <br> <span class="label label-success">Principiante</span> <br> Daniel Lara | [**Moodle: Muito mais que o "site da escola"**](#Moodle:_Muito_mais_que_o_"site_da_escola") <br> <span class="label label-success">Principiante</span> <br> Alan Velasques Santos |
 | **10:20** | [**Godot: A Engine de Jogos que você sempre esperou!**](#Godot:_A_engine_de_jogos_que_você_sempre_esperou!) <br> <span class="label label-warning">Intermediário</span> <br> Guilherme Henrique Teixeira de Oliveira |  [**Desenvolvimento de um software para a migração entre SGDBs**](#Desenvolvimento_de_um_software_para_a_migração_entre_SGDBs) <br> <span class="label label-success">Principiante</span> <br> Nairo Andre Jesus Sanches <br> Thiago Schoeninger  | [**Entendendo o Systemd**](#Entendendo_o_Systemd) <br> <span class="label label-success">Principiante</span> <br> João Avelino Bellomo Filho | [**Projetando seu PCB com o Kicad**](#Projetando_seu_PCB_com_o_Kicad) <br> <span class="label label-success">Principiante</span> <br> Augusto Gouvêa Weber |
-| **11:10** | [**Introdução ao Arduino**](#Introdução_ao_Arduino) <br> <span class="label label-success">Principiante</span> <br> Renato Severo | [**Boas práticas e ferramentas para um time que desenvolve para Núvem - A experiência do QuantoSobra**](#Boas_práticas_e_ferramentas_para_um_time_que_desenvolve_para_Núvem_-_A_experiência_do_QuantoSobra) <br> <span class="label label-success">Principiante</span> <br> Ricardo Severo | [**Pwned! Meu site foi invadido, e agora?**](#Pwned!_Meu_site_foi_invadido,_e_agora?) <br> <span class="label label-warning">Intermediário</span> <br> Fabio Beneditto| [**Como ter sucesso com software livre?**](#Como_ter_sucesso_com_software_livre?) <br> <span class="label label-success">Principiante</span> <br> Cristiano Diedrich |
+| **11:10** | [**Introdução ao Arduino**](#Introdução_ao_Arduino) <br> <span class="label label-success">Principiante</span> <br> Renato Severo | [**Boas práticas e ferramentas para um time que desenvolve para Núvem - A experiência do QuantoSobra**](#Boas_práticas_e_ferramentas_para_um_time_que_desenvolve_para_Núvem_-_A_experiência_do_QuantoSobra) <br> <span class="label label-success">Principiante</span> <br> Ricardo Severo | [**DevOps para sistemas embarcados**](#DevOps_para_sistemas_embarcados) <br> <span class="label label-warning">Intermediário</span> <br> Eduardo Witter <br> Diego Cardoso Garcia | [**Pwned! Meu site foi invadido, e agora?**](#Pwned!_Meu_site_foi_invadido,_e_agora?) <br> <span class="label label-warning">Intermediário</span> <br> Fabio Beneditto |
 | **12:00** <td colspan=5><center>**Intervalo para Almoço**</center> |
 | **13:30** | [**DIY: Joystick arcade com Arduino**](#DIY:_Joystick_arcade_com_Arduino) <br> <span class="label label-warning">Intermediário</span> <br> Alex Veloso da Silveira | [**Uma Não-Gentil Introdução ao Stream Processing**](#Uma_Não-Gentil_Introdução_ao_Stream_Processing) <br> <span class="label label-warning">Intermediário</span> <br> Julio Biason | [**NGiNX - O motor da sua aplicação Web**](#NGiNX_-_O_motor_da_sua_aplicação_Web) <br> <span class="label label-warning">Intermediário</span> <br> Ernani Azevedo | [**Inovações no mundo das distribuições Linux**](#Inovações_no_mundo_das_distribuições_Linux) <br> <span class="label label-success">Principiante</span> <br> Victor Hugo Aguiar Pacce |
-| **14:20** | [**DevOps para sistemas embarcados**](#DevOps_para_sistemas_embarcados) <br> <span class="label label-warning">Intermediário</span> <br> Eduardo Witter <br> Diego Cardoso Garcia | [**Por que a galinha atravessou a rua?**](#Por_que_a_galinha_atravessou_a_rua?) <br> <span class="label label-success">Principiante</span> <br> Alan Mussoi | [**DevOps: Passado, presente e futuro**](#DevOps:_Passado,_presente_e_futuro) <br> <span class="label label-warning">Intermediário</span> <br> Cristiano Diedrich |  [**10 anos de cerv.. cafés depois do Santa Cruz do Sul 25/04/2009**](#10_anos_de_cerv.._cafés_depois_do_Santa_Cruz_do_Sul_25-04-2009) <br> <span class="label label-success">Principiante</span> <br> Luiz Henrique Rauber Rodrigues |
+| **14:20** | [**Linux, Raspberry Pi e IoT**](#Linux,_Raspberry_Pi_e_IoT) <br> <span class="label label-warning">Intermediário</span> <br> Ricardo da Silva Ogliari | [**Por que a galinha atravessou a rua?**](#Por_que_a_galinha_atravessou_a_rua?) <br> <span class="label label-success">Principiante</span> <br> Alan Mussoi | [**DevOps: Passado, presente e futuro**](#DevOps:_Passado,_presente_e_futuro) <br> <span class="label label-warning">Intermediário</span> <br> Cristiano Diedrich |  [**10 anos de cerv.. cafés depois do Santa Cruz do Sul 25/04/2009**](#10_anos_de_cerv.._cafés_depois_do_Santa_Cruz_do_Sul_25-04-2009) <br> <span class="label label-success">Principiante</span> <br> Luiz Henrique Rauber Rodrigues |
 | **15:10** | [**Uma introdução a teste de software em sistemas embarcados**](#Uma_introdução_a_teste_de_software_em_sistemas_embarcados) <br> <span class="label label-success">Principiante</span> <br> Luana de Freitas | [**Web apps em qualquer lugar - 12 Factor App**](#Web_apps_em_qualquer_lugar_-_12_Factor_App) <br> <span class="label label-warning">Intermediário</span> <br> Tonin Bolzan | [**Iniciando com Kubernetes**](#Iniciando_com_Kubernetes) <br> <span class="label label-warning">Intermediário</span> <br> Cristhian Bicca  | [**Software Livre no serviço Público**](#Software_Livre_no_serviço_Público) <br> <span class="label label-success">Principiante</span> <br> Pablo de Andrades Lima |
 | **16:00** <td colspan=5><center>**Coffee-Break**</center> |
 | **16:30** <td colspan=5><center>**Encerramento**<br> <span class="label label-info">Todo o público</span> <br>   Equipe Tchelinux  <br> </center> |
@@ -119,6 +119,19 @@ Apanhado geral sobre a estruturação de um time e práticas aplicadas, passando
 
 [Ricardo Severo](https://www.linkedin.com/in/rasevero) é envolvido com a comunidade de software livre desde 2003 e mais de 10 anos de experiência em desenvolvimento de software embarcado e na nuvem. Mais de 8 anos de experiência em gestão de equipes de desenvolvimento. Co-founder e CTO da QuantoSobra.
 
+### DevOps para sistemas embarcados
+
+Nessa palestra, vamos falar sobre softwares embarcados, ver como é feita a entrega contínua deles, considerando a diversidade de plataformas de hardware. Começaremos pela compilação do firmware, passaremos pela automação dos testes e iremos até a disponibilização de uma versão para o cliente. E também sobre as tecnologias usadas no pipeline de entrega contínua, tais como Ansible, Vagrant, Docker, Jenkins, Elasticsearch, como a automação dos testes é feita envolvendo topologias de rede complexas, além da cultura e práticas que possibilitam as entregas frequentes.
+
+### Eduardo Witter
+
+[Eduardo Witter](https://www.linkedin.com/in/eduardo-witter/) é Engenheiro Eletricista e trabalha na Datacom no P&D para Sistemas Embarcados e como DevOps.
+
+### Diego Cardoso Garcia
+
+[Diego Cardoso Garcia](https://www.linkedin.com/in/diego-cardoso-garcia/) é Engenheiro de Computação, especialista em Engenharia de Software, trabalha no P&D como DevOps. 
+
+
 ### Pwned! Meu site foi invadido, e agora?
 
 Todos sabem que a pressa é inimiga da perfeição, mas não adianta deixar aspectos simples de segurança para depois. Veremos como identificar vulnerabilidades de SQL Injection em aplicações PHP, que são encontradas na maioria dos web sites.
@@ -169,18 +182,13 @@ Nesta palestra teremos uma visão geral das distribuições Linux, quais estão 
 
 [Victor Hugo Aguiar Pacce](https://github.com/drakonis) cursa Ciência da Computação pela Universidade de Santa Cruz do Sul.
 
-### DevOps para sistemas embarcados
+### Linux, Raspberry Pi e IoT
 
-Nessa palestra, vamos falar sobre softwares embarcados, ver como é feita a entrega contínua deles, considerando a diversidade de plataformas de hardware. Começaremos pela compilação do firmware, passaremos pela automação dos testes e iremos até a disponibilização de uma versão para o cliente. E também sobre as tecnologias usadas no pipeline de entrega contínua, tais como Ansible, Vagrant, Docker, Jenkins, Elasticsearch, como a automação dos testes é feita envolvendo topologias de rede complexas, além da cultura e práticas que possibilitam as entregas frequentes.
+O Objetivo da palestra é mostrar como é fácil instalar e configurar um sistema operacional Linux em um mini-PC Raspberry Pi. Além disso, irei analisar a API para integrar com Internet das Coisas, demonstrações que é possível ser feito.
 
-### Eduardo Witter
+### Ricardo da Silva Ogliari
 
-[Eduardo Witter](https://www.linkedin.com/in/eduardo-witter/) é Engenheiro Eletricista e trabalha na Datacom no P&D para Sistemas Embarcados e como DevOps.
-
-### Diego Cardoso Garcia
-
-[Diego Cardoso Garcia](https://www.linkedin.com/in/diego-cardoso-garcia/) é Engenheiro de Computação, especialista em Engenharia de Software, trabalha no P&D como DevOps. 
-
+[Ricardo da Silva Ogliari](https://www.linkedin.com/in/ricardoogliari/) é Bacharel em Ciência da Computação pela UPF. Especialista em Web: Estratégias de Inovação e Tecnologia pelo Senac-SP. MBA em Desenvolvimento de Jogos e Aplicativos Móveis, pela FIAP. Desenvolvedor Android na Kanamobi. Instrutor na Mobi Learn. Co-autor do livro Android: do Básico ao Avançado. Palestrante em eventos nacionais e internacionais, como FISL, Campus Party, TDC, Intercon e QCon.
 
 ### Por que a galinha atravessou a rua?
 
