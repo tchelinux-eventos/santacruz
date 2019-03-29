@@ -155,7 +155,7 @@ A ideia da apresentação é mostrar o desenvolvimento de uma aplicação direta
 
 ### Alex Veloso da Silveira
 
-[Alex Veloso da Silveira](https://www.facebook.com/alex.veloso.7) é Gremista, cervejeiro, gamer, comentárista de comentários de facebook, evangelista de séries no Netflix e nas horas vagas atuo como desenvolvedor de software embarcado.
+[Alex Veloso da Silveira](https://www.facebook.com/alex.veloso.7) é gremista, cervejeiro, gamer, comentarista de comentários de facebook, evangelista de séries no Netflix e nas horas vagas atua como desenvolvedor de software embarcado.
 
 ### Uma Não-Gentil Introdução ao Stream Processing
 
