@@ -257,6 +257,12 @@ Apresentar os impactos e benefícios do uso do software livre na gestão públic
    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13863.057955954437!2d-52.438544!3d-29.697607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d0e6112ed56e4b7!2sUnisc+University+of+Santa+Cruz+do+Sul!5e0!3m2!1sen!2sbr!4v1553371850444" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
+## Mapa da UNISC
+
+<center>
+  <img src="images/mapa_unisc.jpg">
+</center>
+
 ## Apoio
 
 ### Institucional
