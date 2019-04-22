@@ -276,3 +276,4 @@ Apresentar os impactos e benefícios do uso do software livre na gestão públic
 
 [![Blog Diolinux](images/logo_diolinux.png)](https://www.diolinux.com.br/)
 [![Projeto Root](images/logo_projetoroot.png)](https://projetoroot.com.br/)
+[![PHP Conference Brasil](images/logo_phpconference.png)](https://phpconference.com.br/)
