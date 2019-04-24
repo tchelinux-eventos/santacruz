@@ -271,6 +271,9 @@ Apresentar os impactos e benefícios do uso do software livre na gestão públic
 
 ### Patrocínio
 
+[![UNISC](images/unisc.png)](https://www.unisc.br)
+[![DACOMP](images/logo_dacomp.png)](http://discord.gg/F9xg9qJ)
+[![ATIVales](images/logo_ativales.png)](https://www.ativales.com.br/)
 
 ### Divulgação
 
