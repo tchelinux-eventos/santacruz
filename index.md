@@ -16,11 +16,11 @@ As inscrições já se encontram abertas e podem ser feitas através do link aba
 
 <center><a href="https://santacruz.tchelinux.org/inscricoes/" style="color:#ff4040"><b><h3>Clique aqui e faça já a sua inscrição! Vagas limitadas!<h3></b></a></center>
 
-O evento tem **entrada franca**, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são doados a instituições de caridade da região. Os alimentos são recebidos no momento do credenciamento.
+O evento tem **entrada franca**, porém os participantes são encorajados a doar 2kg de alimentos não perecíveis (exceto sal), que são doados a instituições de caridade da região. Os alimentos serão recebidos no momento do credenciamento.
 
 ## Certificados
 
-Serão fornecidos certificados digitais para os participantes do evento, que confirmaram sua presença. Para obtê-los, você deverá utilizar o email fornecido na sua inscrição para o evento.
+Serão fornecidos certificados digitais para os participantes do evento que confirmarem sua presença. Para obtê-los, você deverá utilizar o email fornecido na sua inscrição para o evento.
 
 **Importante:** Não esqueça de confirmar sua presença no credenciamento.
 
@@ -32,7 +32,7 @@ Serão fornecidos certificados digitais para os participantes do evento, que con
 > Santa Cruz do Sul - RS
 
 <div class="map-responsive">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13863.057955954437!2d-52.438544!3d-29.697607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d0e6112ed56e4b7!2sUnisc+University+of+Santa+Cruz+do+Sul!5e0!3m2!1sen!2sbr!4v1553371850444" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4121.49055369348!2d-52.43921458052003!3d-29.698124602258456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951cbcaddda7f667%3A0x552d577414396ee9!2sBlocos%201%20e%202!5e0!3m2!1sen!2sbr!4v1582077911023!5m2!1sen!2sbr" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div>
 
 ## Mapa da UNISC
